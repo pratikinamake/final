@@ -1,7 +1,7 @@
 
 sudo yum -y update
 sudo yum -y install httpd
-cp /root/final/index.php  /var/www/html
+cp /home/index.php  /var/www/html
 sudo service httpd restart
 sudo yum -y install nmap
 
